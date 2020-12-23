@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(182, 222, 238);
+    padding: 50px;
+    
+}
+.container-box-1{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;  /* help to  put box in center  */ 
+    text-align: center;
+    
+}
+
+
+.flex-box{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+input{
+    width: 21%;
+    margin: 0 auto;
+}
+
+.flex-button-box{
+
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.flex-button-box div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-result-box{
+    border: 1px solid black;
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age In Days</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="ageInDays.css">
+</head>
+
+
+<body>
+    <div class="container-box-1">
+        <h2>Challenge 1: Count your Age In Days</h2>
+        <div class="flex-box">
+            <label for=""><h4><i>What is your born year?</i></h4></label>
+            <input type="number" name="n1" id="input" placeholder="Enter Your born Year">
+        </div>
+
+        <div class="flex-button-box">
+            <div>
+                <button class="btn btn-success" onclick="calculate()">Calculate</button>
+            </div>
+
+            <div>
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="flex-result-box">
+            <h3 id="result-h3-box">Your Answer comes here!</h3>
+        </div>
+    </div>
+</body>
+<script src="ageInDays.js"></script>
+
+</html>
