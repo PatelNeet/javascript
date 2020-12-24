@@ -1,0 +1,57 @@
+body{ background-color: #091921;    }
+#clock-container{
+    position: relative;  
+    margin: auto;
+    border:0.5vw solid rgb(168, 250, 4);
+    border-radius: 50%; /* for make border as circuler form */
+    height: 40vw;  /* vw used for make it responsive */
+    width: 40vw;
+    background: url('clock.png') no-repeat;  
+    background-size: 100%; /* for responsive */  
+}
+#centerPoint{
+    position: absolute;
+    background:  rgb(168, 250, 4);
+    border-radius: 50%; 
+    width: 3vw;
+    height: 3vw;
+    top: 45%;
+    left: 46%;
+}
+#cp2{
+    position: absolute;
+    background:black;
+    border-radius: 50%; 
+    width: 2vw;
+    height: 2vw;
+    top: 46.4%;
+    left: 47.25%;
+}
+#hr, #min, #sec{
+    position: absolute;
+    /* background: white; */
+    border-radius: 10px;
+    /* opacity: 0.8; */
+    transform-origin: bottom;
+}
+#hr{
+    width: 3%;
+    height: 19%;
+    top: 29.5%; 
+    left: 48.2%;
+    background: orange;
+}
+#min{
+    width: 2%;
+    height: 27%;
+    top: 22%; 
+    left: 48.7%;
+    background: red;
+}
+#sec{
+    width: 1%;
+    height: 35%;
+    top: 14%; 
+    left: 49.2%;
+    background: yellow;
+}
