@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    padding: 10px;
+    background: black;
+}
+.container{
+    border: 2px solid rgb(246, 202, 7);
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+    color: white;
+    box-shadow: -3px -3px 7px rgb(9, 140, 216),
+                3px 3px 9px red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    padding: 25px;
+    background:  rgb(25, 187, 10)  ;
+    font-size: large;
+    box-shadow: -3px -3px 7px rgb(4, 12, 0),
+                3px 3px 5px rgb(85, 194, 85);
+}
+.flex-box{
+    padding: 10px;
+    margin: 15px;
+    box-shadow: -3px -3px 3px rgb(179, 226, 253),
+                3px 3px 2px rgb(206, 184, 184);
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;  /* Needs to put img in second row */      
+}
+.flex-box img{
+    margin: 10px;
+    box-shadow: 0px 1px 7px rgba(158, 178, 221, 0.466);
+}
