@@ -1,0 +1,16 @@
+html,body {
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background:#dde1e7;
+}
+.container {
+    border: 2px solid #d7dde6;
+    padding: 25px;
+    background-color: #dde1e7;
+    box-shadow: -5px -5px 7px #ffffff75,
+                8px 8px 9px rgba(9, 228, 137, 0.288);
+    color: rgb(3, 3, 248);
+}
