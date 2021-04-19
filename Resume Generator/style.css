@@ -1,0 +1,15 @@
+.myimg{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.bgleft{
+    background-color: rgb(211, 211, 211);
+}
+.bgright{
+    background-color: rgb(236, 233, 233);
+}
+#cv-template{
+    display: none;
+}
